@@ -1,0 +1,221 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(./fonts/2.otf);
+  }
+  @font-face {
+      font-family: my;
+      src: url(./fonts/3.otf);
+  }
+  @font-face{
+      font-family: smal;
+      src: url(./fonts/1.otf)
+  }
+  .fixed{
+    position:fixed;
+    
+    flex-direction: column;
+    width: 319px;
+    height: 100vh;
+    overflow:auto;
+    background-color:black;
+    top:0;
+    left:0;
+}
+.p{ display:flex;
+    width:30px;
+   height:42px;
+    color: white;
+    font-family: my; 
+    cursor: pointer;
+}
+.container1{
+    width: 259px;
+    height:60px;
+    background-color:deeppink;
+    color:white;
+    border-radius: 12px;
+    margin:30px;
+    cursor: pointer;
+}
+.img{
+    width:24px;
+    height:24px;
+    color:white;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.home{
+    color:white;
+    width:56px;
+    height:28px;
+    margin-top: -18px;
+    margin-left: 80px;
+    font-size: x-large;
+    font-family:myfirstfont;
+    cursor: pointer;
+}
+.container2{
+    width: 80px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 21px;
+    cursor: pointer;
+}
+
+.img2{
+    color:white;
+    width:24px;
+    height:24px;
+    font-family:myfirstfont;
+    margin-block-start: 40px;
+    cursor: pointer;
+}
+.container3{
+    padding-bottom: 2px;
+    padding-top: 2px;
+    padding-right: 2px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.img3{
+    width:24px;
+    height:24px;
+    color:white;
+
+}
+.container4{
+    width:80px;
+    cursor: pointer;
+    display: flex;
+    height: 23px;
+}
+.img4{
+    border-radius: -10px;
+}
+.container5{
+    width:98px;
+    height:24px;
+    margin: 5px;
+    padding: 25px;
+    padding-block-start: 20px;
+    margin-inline-start: -28px;
+    cursor: pointer;
+    display: flex;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.following{
+font-family:my;
+font-size: 12px;
+cursor: pointer;
+}
+.sajon{
+    font-family: myfirstfont;
+    cursor: pointer;    
+}
+.img5{
+    margin: 5px;
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-right: auto;
+    cursor: pointer;
+}
+.div{
+    margin-left: -18px;
+    padding: 3px;
+    font-family:myfirstfont;
+    cursor: pointer;
+}
+.div1{
+    margin:0px;
+    margin-left: -15px;
+    margin-top: 5px;
+    font-family:myfirstfont;
+    cursor: pointer;
+}
+.div2{
+    font-family: myfirstfont;
+    margin: 0px;
+    margin-left: -19px;
+    cursor: pointer;
+}
+
+ .loadmore{
+    margin-top: 18px;
+    margin-left: 140px;
+     cursor: pointer;
+}
+.image{
+    margin-left: 260px;
+    border-bottom-width: 50px;
+    width: 29px;
+    cursor: pointer;
+}
+.search{
+    display:flex;
+    align-content: center;
+    margin-left: 400px;
+    border-radius:12px;
+    width:446px;
+    height:56px;
+    border:none;  
+}
+
+.timeline{
+    display:flex;
+    justify-content:space-evenly;
+    margin-left: 1000px;
+    box-sizing: border-box;
+    color:crimson;
+   border-radius: 12px;
+   list-style-type: none; 
+}
+ .navlist{
+     display:flex;
+     flex-direction: row;
+     justify-content:right;
+     align-items: flex-start;  
+ }
+ ul {
+    list-style-type: none;
+    margin: 0px;  
+}
+li { float: left; 
+}
+
+li a {
+    color:black;
+    padding: 0px;
+    text-decoration: none;
+  }
+  nav{
+    margin-left: 400px;
+    margin-top: 30px;
+    height: 18px
+  }
+ li>a{
+    margin-right: 10px;
+    font-family: smal;
+    font-size: 16px;
+    fill:#222222;
+    border:#707070;
+    text-shadow: #000000;
+ }
+ 
+span,button{
+    color:white;
+    font-family:smal;
+    background-color: #FF2288;
+    border:none;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+    
+    
+
+    
+
